@@ -14,4 +14,5 @@ if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
-        debug=True)
+        debug=True)  #change to debug=False before submitting a project! debug=True can cause arbitrary code to run which is a security flaw.
+    
